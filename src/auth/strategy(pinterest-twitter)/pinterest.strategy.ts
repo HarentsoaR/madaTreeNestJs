@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { PassportStrategy } from '@nestjs/passport';
-import { Strategy } from 'passport-pinterest-oauth';
+import { Strategy } from 'passport-pinterest';
 
 @Injectable()
 export class PinterestStrategy extends PassportStrategy(Strategy, 'pinterest') {

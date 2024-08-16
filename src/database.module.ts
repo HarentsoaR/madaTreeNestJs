@@ -9,7 +9,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
       port: 5432, // Default PostgreSQL port
       username: 'postgres', // Your PostgreSQL username
       password: '1234', // Your PostgreSQL password
-      database: 'one-ie', // Name of your database
+      database: 'akoramg', // Name of your database
       autoLoadEntities: true,
       synchronize: true, // Automatically create database schema on every application launch
     }),
